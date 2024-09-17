@@ -1,0 +1,83 @@
+//Microsoft App Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "windows.h"
+
+/////////////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ID_DLG_TRANSPORT DIALOG DISCARDABLE  0, 0, 275, 78
+STYLE WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Simple MOD Player"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,5,10,265,35
+    LTEXT           "FILE:",IDC_STATIC,10,15,30,10
+    LTEXT           "Static",IDS_FILENAME,45,15,215,10
+    PUSHBUTTON      "<<",IDB_REWIND,5,55,20,14
+    PUSHBUTTON      "STOP",IDB_STOP,30,55,30,14
+    PUSHBUTTON      "||",IDB_PAUSE,65,55,15,14
+    PUSHBUTTON      ">",IDB_PLAY,85,55,25,14
+    PUSHBUTTON      ">>",IDB_FASTFORWARD,115,55,20,14
+    DEFPUSHBUTTON   "&Open...",IDB_OPEN,190,55,40,14
+    PUSHBUTTON      "&Quit",IDCANCEL,235,55,35,14
+    LTEXT           "STATUS:",IDC_STATIC,10,30,30,10
+    LTEXT           "Static",IDS_STATUS,45,30,215,10
+END
+
+#ifdef APSTUDIO_INVOKED
+//////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+//////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDI_ICON1               ICON    DISCARDABLE     "ICON1.ICO"
+
+#ifndef APSTUDIO_INVOKED
+////////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
